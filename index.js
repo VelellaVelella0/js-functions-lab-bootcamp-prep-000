@@ -9,4 +9,4 @@ function happyHolidaysTo(string, name) {
  return "Happy holidays,${name}!"
   }
 
-var happyHolidaysTo = 'Happy holidays, you'
+function happyHolidaysTo() = 'Happy holidays, you'
