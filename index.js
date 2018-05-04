@@ -5,15 +5,6 @@ function happyHolidays(string) {
 
 
 
-function happyHolidaysTo(string) {
- return "Happy holidays,(name)!"
+function happyHolidaysTo(string, name) {
+ return "Happy holidays,${name}!"
   }
-
-function happyHolidayTo(string) {
-  'Happy ${holidays},(name)!'
-}
-
-  function happyHolidaysTo(name) {
-    return string("Happy holidays, (name)")
-      happyHolidaysTo('name').toEqual('Happy holidays, you!')
-    }
