@@ -14,6 +14,6 @@ function happyHolidayTo(string) {
 }
 
   function happyHolidaysTo(name) {
-    return string("Happy holidays, ${name}!")
+    return string("Happy holidays, (name)")
       happyHolidaysTo('name').toEqual('Happy holidays, you!')
     }
